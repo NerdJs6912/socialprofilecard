@@ -1,0 +1,75 @@
+@import url('https://fonts.googleapis.com/css2?family=Inter:wght@100..900&display=swap');
+body {
+  font-family: 'inter';
+  font-size: 14px;
+  background-color: hsl(0, 0%, 8%);
+  margin-left: 400px;
+  margin-right: 400px;
+  padding-top: 50px;
+  padding-bottom: 50px;
+  padding-left: 90px;
+  padding-right: 90px;
+  
+  }
+  main {
+    display: flex;
+    align-items: center;
+    justify-content: center;
+    background-color: hsl(0, 0%, 12%);
+    color: white;
+    padding: 20px;
+    border-radius: 8px;
+    }
+.section {
+  text-align: center;
+  /* max-width: 1440px; */
+}
+img {
+  width: 50px;
+  border-radius: 25px;
+}
+.container-2 {
+  margin: auto;
+
+}
+.container-2 h3 {
+  margin-bottom: 0;
+}
+.container-2 p {
+  font-size: 10px;
+  margin: 0;
+  color: hsl(75, 94%, 57%);
+}
+button {
+  color: white;
+  background-color: hsl(0, 0%, 20%);
+  font-weight: 500;
+  border: none;
+  border-radius: 5px;
+  width: 100%;
+  padding: 10px;
+  margin-bottom: 10px;
+  cursor: pointer;
+}
+
+@media (max-width: 800px) {
+  body {
+    display: flex;
+    font-size: 12px;
+    margin-left: 50px;
+    margin-right: 50px;
+    padding-left: 30px;
+    padding-right: 30px;
+  }
+  main {
+    justify-content: center;
+    align-items: center;
+    padding: 5px;
+  }
+  .container-3 p {
+    width: 100%;
+  } 
+  .section {
+    /* max-width: 1000px; */
+  }
+}
